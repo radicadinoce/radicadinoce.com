@@ -8,7 +8,7 @@ var stylus = require('gulp-stylus');
 var nib = require('nib');
 var del = require('del');
 var webserver = require('gulp-connect');
-
+var deploy = require('gulp-gh-pages');
 var config = {
   sources: {
     'jade': 'template/*.jade',
